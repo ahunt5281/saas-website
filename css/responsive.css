@@ -1,0 +1,495 @@
+@media (max-width: 1023px ) {
+  nav {
+    padding-top: 10px;
+    margin: 0 20px;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .description {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .description .description-links {
+    justify-content: space-evenly;
+}
+
+  .google-logo {
+    left: -70px;
+    top: 100px;
+  }
+  .asana-logo {
+    left: 540px;
+    top: 90px;
+  }
+  .atlassian-logo {
+    left: 210px;
+    top: 80px;
+  }
+  .paypal-logo {
+    left: -50px;
+  }
+  .weave-logo {
+    left: 360px;
+  }
+  .google-a-logo {
+    left: 90px;
+  }
+  .calendar-logo {
+    left: 500px;
+  }
+
+  .benefits {margin-top: 600px;}
+
+  .benefits-cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 41%;
+  }
+
+  .first-line-between, .second-line-between, .third-line-between {
+    display: none;
+  }
+
+  .perspective-info {
+    text-align: center;
+  }
+
+  .perspective-info a {
+    margin: 0 auto;
+  }
+
+  .perspective .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .perspective-banner, .perspective-banner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .perspective-banner {
+    margin-top: 10%;
+  }
+
+  .banner-2 .play-banner {
+    left: 43%;
+    bottom: 30%;
+  }
+
+  .container span {
+    font-size: 1.3rem;
+  }
+
+  .hubspot .container {
+    flex-direction: column;
+  }
+  .hub-images {
+    width: 100%;
+  }
+  .hub-images img {
+    height: 60%;
+  }
+
+  .hub-info {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .hub-info img {
+    margin-top: 100px;
+  }
+
+  .endorsements {
+    margin-top: 100px;
+    padding: 0 10px;
+  }
+  .company-logos {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .price {margin: 0;}
+
+  .price .card {
+    width: 100%;
+    text-align: center;
+  }
+  .price .card a {
+    margin: auto;
+  }
+
+  .price-features {
+    width: 80%;
+    margin-bottom: 100px;
+  }
+
+  .hire-images {
+    width: 90%;
+  }
+
+  .hire-form {
+    width: 75%;
+    margin: 5px auto;
+  }
+
+  .hire-why {
+    display: flex;
+    padding: 0 0 0 10px;
+    width: 98%;
+  }
+  .hire-why > div{
+    width: 50%;
+  }
+
+  .hire-why h3 {font-size: 40px;}
+  .hire-why p {font-size: 25px;}
+  .hire-why span {font-size: 25px;}
+  .hire-why h5 {font-size: 30px;}
+  .hire-why .hire-gal-role {font-size: 1.3rem;}
+
+  .privacy-links {
+    margin-left: 0;
+  }
+
+  input[type=submit] {
+    margin-left: 200px;
+  }
+
+  .footer-top {
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+
+  .footer-top-company {
+    margin-left: 20px;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-top h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer-top ul span {
+    font-size: 10px;
+    padding: 0px var(--size-10) 0.188rem;;
+  }
+
+  .footer-bottom-top {
+    font-size: 1rem;
+  }
+
+  .social-media-and-country {
+    width: 50%;
+  }
+
+  .social-media-and-country div, .social-media-and-country div .lnkdn {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer-bottom-top img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-bottom-top select {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .footer-bottom-bottom {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ .nav-links {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .nav-links {
+    display: block;
+  }
+
+  header {
+    height: 52rem;
+  }
+  nav {margin: 0 20px;}
+
+  .header-info {margin-top: 50px;}
+  .logo {margin-left: 0;}
+  .logo img {width: 10rem;}
+
+  .description h2 {font-size: 0.8em;}
+
+  .description .btn {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .btn-video img {padding-left: 20px;}
+  .description .blue-link {font-size: 1rem;}
+  
+  .description .description-links {
+    justify-content: center;
+  }
+  .logo-bunch {
+    top: 90px;
+    right: 20%;
+  }
+  .logo-bunch div {
+    width: 70px;
+    height: 70px;
+  }
+
+  .google-logo {
+    left: 30%;
+    top: 10%;
+  }
+  .asana-logo {
+    left: 80%;
+    top: 5%;
+  }
+  .atlassian-logo {
+    left: 50%;
+    top: 0%;
+  }
+  .paypal-logo {
+    left: 32%;
+    top: 9rem;
+  }
+  .weave-logo {
+    left: 62%;
+    top: 9rem;
+  }
+  .google-a-logo {
+    left: 45%;
+    top: 15rem;
+  }
+  .calendar-logo {
+    left: 75%;
+    top: 19rem;
+  }
+
+  .benefits {
+    margin-top: 200px;
+  }
+
+  .benefits-head h2 {font-size: 40px;}
+  .benefits-head p {font-size: 25px;}
+  .benefits-cards .card {width: 85%;}
+
+  .perspective-info h3 {font-size: 80%;}
+  .perspective-info .btn {
+    padding: 0;
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  .why p {font-size: 20px;}
+
+  .dots {
+    justify-content: start;
+    margin-top: 4rem;
+  }
+
+  .dot-container {
+    flex-direction: row;
+  }
+
+  .dot-container span {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .dots {
+    flex-wrap: wrap;
+  }
+
+  .banner-2 .play-banner {
+    left: 40%;
+    bottom: 20%;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .hub-info {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .hub-info p {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .hub-info div p {font-size: 2rem;}
+  .hub-info div span {font-size: 1.5rem;}
+
+  .endorsements h3 {font-size: .7em;}
+
+  .hub-images {height: 450px;}
+  .hub-images img {
+    margin-top: 3rem;
+  }
+  .hub-images .first-child {
+    width: 240px;
+    height: 270px;
+    margin-left: 60px;
+  }
+
+  .company-logos {
+    flex-direction: column;
+    height: 450px;
+    margin: 0 auto;
+  }
+  .company-logos img {width: 150px;}
+
+  .hub-images .last-child {
+    top: 18%;
+    width: 177px;
+    left: 20px;
+  }
+
+  .hub-info img {
+    margin-top: 0;
+  }
+
+  .endorsements {
+    margin-top: 5rem;
+  }
+  .price-head h3 {font-size: 1em;}
+
+  .price-head p {font-size: 1.5rem;}
+
+  .price .card {
+    padding: 0 3rem;
+  }
+  .price .card h3 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  .price .card p {font-size: 1.6rem;}
+  .price .card h3 span {font-size: 2rem;}
+
+  .price .card .btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .pricing .card .span {font-size: 17px;}
+  .feature-card h4 {font-size: 1.4rem;}
+  .feature-card div span {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .feature-card p {font-size: 1.4rem;}
+
+  .hire-why {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+
+  .hire-why span {font-size: 20px;}
+  .hire-why div {
+    width: 100%;
+  }
+
+  .hire-why hr {
+    margin-left: 60px;
+    width: 80%;
+  }
+
+  .hire-images {
+    margin: auto;
+  }
+
+  .hire-form {
+    width: 70%;
+  }
+  .hire-form h6 {font-size: 17px;}
+  .hire-form input {height: 3rem;}
+  .hire-form textarea {width: 81%;}
+
+  .marketing-container p {
+    line-height: 1.7;
+    font-size: 1.2rem;
+  }
+
+  .privacy-links {
+    justify-content: start;
+  }
+  .privacy-links a {
+    font-size: 1.1rem;
+    margin-left: 45px;
+  }
+  .privacy-links .blue-link{
+    display: none;
+  }
+
+  input[type=submit] {
+    margin: 30px 0 0 30px;
+    padding: 0;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-top-company {
+    margin: 0;
+  }
+
+  .footer-top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top ul div {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .footer-bottom-top {
+    flex-direction: column;
+  }
+
+  .social-media-and-country {
+    width: 90%;
+  }
+
+  .footer-bottom-bottom {
+    width: 100%;
+  }
+ 
+}
+
+
+
+@media (min-width: 1024px) {
+
+}
